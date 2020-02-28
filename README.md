@@ -4,6 +4,11 @@
 
 `$ npm install react-native-incognito-js --save`
 
+This module need `react-native-randombytes` to work, then install it:
+
+`$ npm install react-native-randombytes --save`
+
+
 ### Mostly automatic installation
 
 `$ react-native link react-native-incognito-js`
@@ -12,6 +17,5 @@
 ```javascript
 import IncognitoJs from 'react-native-incognito-js';
 
-// TODO: What to do with the module?
 IncognitoJs;
 ```
