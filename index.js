@@ -13,8 +13,9 @@ try {
     implementedMethods[methodName] = (data) => {
       return new Promise((resolve, reject) => {
         try {
-          log(`${methodName} called with params`, data);
-          PrivacyGo[methodName](data, function(error, result) {
+          const dataStr = typeof data === 'string' ? data : JSON.stringify(data);
+          log(`${methodName} called with params`, dataStr);
+          PrivacyGo[methodName](dataStr, function(error, result) {
             if (error) {
               reject(error);
             }

@@ -1,5 +1,5 @@
 #import <React/RCTBridgeModule.h>
 
-@interface IncognitoJs : NSObject <RCTBridgeModule>
+@interface IncognitoJS : NSObject <RCTBridgeModule>
 
 @end
