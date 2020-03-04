@@ -21,11 +21,16 @@ Then, add this line to your app `package.json` script:
 
 ### Install IncognitoJS module
 
-`$ npm install react-native-incognito-js --save`
+`$ npm install https://github.com/incognitochain/react-native-incognito-js --save`
 
 This module needs `react-native-randombytes` to work, install it:
 
 `$ npm install react-native-randombytes --save`
+
+
+##### Note for iOS
+
+You need to add `Gomobile.framework` to your project xcworkspace. The framework is located in `node_modules/react-native-incognito-js/ios/Gomobile.framework`
 
 
 
@@ -35,7 +40,11 @@ This module needs `react-native-randombytes` to work, install it:
 
 ## Usage
 ```javascript
-import IncognitoJs from 'react-native-incognito-js';
+import incognitoJs from 'react-native-incognito-js';
 
-IncognitoJs;
+incognitoJs;
 ```
+
+See [IncognitoJS API Document](https://github.com/incognitochain/sdk-v2/#api)
+
+See [an example (Incognito Wallet Template)](https://github.com/incognitochain/incognito-wallet-template)
