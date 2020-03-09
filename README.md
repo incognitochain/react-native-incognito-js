@@ -4,7 +4,7 @@
 
 ### Install node core modules
 
-`$ npm install rn-nodeify@latest --save-dev`
+`$ yarn add -D rn-nodeify@latest`
 
 Then, add this line to your app `package.json` script:
 
@@ -21,11 +21,11 @@ Then, add this line to your app `package.json` script:
 
 ### Install IncognitoJS module
 
-`$ npm install https://github.com/incognitochain/react-native-incognito-js --save`
+`$ yarn add https://github.com/incognitochain/react-native-incognito-js`
 
 This module needs `react-native-randombytes` to work, install it:
 
-`$ npm install react-native-randombytes --save`
+`$ yarn add react-native-randombytes`
 
 
 ##### Note for iOS
